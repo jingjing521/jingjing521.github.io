@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>个人主页</title>
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link href="css/jquery.fullPage.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<header class="clearfix">
+		<div id="logo">
+			<h3>
+				<a href="">
+					<span class="visuallyhidden">Essenso</span>
+				</a>
+			</h3>
+		</div>
+		<div id="main-nav" class="nav">
+			<ul class="clearfix" id="fullpageMenu">
+                <li data-menuanchor="c">
+                    <a href="javascript:;" class="scroll" >姓名：李晶晶</a>
+                    <div class="red-line"></div>
+                </li>
+				<li class="has-submenu" data-menuanchor="a">
+					<a href="javascript:;" class="about scroll">电话：18334795463</a>
+					<div class="red-line"></div>
+				</li>
+				<li data-menuanchor="b">
+					<a href="javascript:;" class="scroll" >QQ：1353281907</a>
+					<div class="red-line"></div>
+				</li>
+				
+			</ul>
+		</div>
+	</header>
+	<div id="fullpage" style="z-index: 1000">
+		<div class="section" id="first">
+			<div class="bg"></div>
+			<h1>Nice To Meet You</h1>
+			<div class="sec-title">I'm glad that you visited my site where you can get to know me and my work.</div>
+			<div class="tu">
+				<div class="zhuan">
+					<img src="img/zhuan.png" alt="" style="max-width: 100%">
+				</div>
+				<div class="zuiwai">
+					<img src="img/wai.png" alt="" style="max-width: 100%">
+				</div>
+				<div class="nei">
+					<img src="img/nei.png" alt="" style="max-width: 100%">
+				</div>
+			</div>
+		</div>
+		<div class="section" id="me">
+			<div class="bao">
+				<div>
+					<div></div>
+				</div>
+				<div><div></div></div>
+				<div><div></div></div>
+				<div><div></div></div>
+			</div class="bao">
+			<!-- <span class="me"></span> -->
+			<div class="introduce">
+                <div>
+                	NAME:
+                	<span>李晶晶<br>前端开发工程师</span>
+                </div>
+                <div>
+                	ATTITUDE:
+                	<span>代码如同二次元，懂了，就爱了。学无止境</span>
+                </div>
+                <div>
+                	OTHER:
+                	<span>略懂音律，略擅丹青，略有心得在文章</span>
+                </div>
+            </div>
+		</div>
+		<div class="section" id="second">
+			<div class="left">
+                <ul class="big">
+                    <li>
+                        <div class="img">
+                        	<img src="img/ps.jpg" alt="">
+                        	<img src="img/ai.png" alt="">
+                        	<!-- <img src="img/ID.jpg" alt="">
+                        	<img src="img/sh.jpg" alt=""> -->
+     
+                        </div>
+                        <p>PS&nbsp;&nbsp;AI&nbsp;&nbsp;ld&nbsp;&nbsp;draw&nbsp;</p>
+                    </li>
+                    <li>
+                        <div class="img">
+                        	<img src="img/html5.png" alt="">
+                        	<img src="img/css3.png" alt="">
+                        	<img src="img/js.jpg" alt="">
+                        	<img src="img/jQuery.jpg" alt="">
+                        </div>
+                        <p>HTML5&nbsp;&nbsp;CSS3&nbsp;&nbsp;InDesign&nbsp;&nbsp;jQuery&nbsp;</p>
+                    </li>
+                    <li>
+                      <div class="img">
+                        	<img src="img/angular.jpg" alt="">
+                        	<img src="img/ajax.png" alt="">
+                        	<span class="other">尚待学习开发...</span>
+                        </div>
+                        <p style="position: relative;bottom: -2px;">angular</p>
+                    </li>
+                </ul>
+				<div class="thumb kort stack">
+					<img src="img/ps.jpg" width="200" height="200">
+					<img src="img/ai.png" width="200" height="200">
+					<img src="img/ID.jpg" width="200" height="200">
+					<img src="img/sh.jpg" width="200" height="200">
+					<img src="img/html5.png" width="200" height="200">
+					<img src="img/css3.png" width="200" height="200">
+					<img src="img/js.jpg" width="200" height="200">
+					<img src="img/jQuery.jpg" width="200" height="200">
+					<img src="img/angular.jpg" width="200" height="200">
+					<img src="img/ajax.png" width="200" height="200">
+				</div>
+              
+            </div>
+            <div class="right">
+                <h1>About Skils</h1>
+                <p>技能<br>掌握情况</p>
+            </div>
+            <div class="container">
+				<div class="content">
+					<div class="col">
+						<ul id="skill">
+							<li><span class="expand html5"></span><em>HTML 5</em></li>
+							<li><span class="expand css3"></span><em>CSS 3</em></li>
+							<li><span class="expand jquery"></span><em>jQuery</em></li>
+							<li><span class="expand photoshop"></span><em>Photoshop</em></li>
+							<li><span class="expand angular"></span><em>Angular</em></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!-- 工作经历 -->
+		<div class="section" id="third">
+			<div class="left">
+                <ul class="big">
+                   <!--  <li>
+                        <div class="img">
+                        	<img src="img/sdm.jpeg" alt="">
+                        </div>
+                        <p>2014年6月<br>太原飒动漫投稿</p>
+                    </li>
+                    <li>
+                        <div class="img">
+                        	<img src="img/ht.jpg" alt="">
+                        </div>
+                        <p>2014年<br>太原品红公司开发后台</p>
+                    </li> -->
+                    <li>
+                       <div class="img">
+                       	<img src="img/qd.jpg" alt="">
+                       </div>
+                        <p>2015.6-2016.9<br>太原小蝌蚪科技公司前端开发</p>
+                    </li>
+                     <li>
+                       <div class="img">
+                        <img src="img/qd.jpg" alt="">
+                       </div>
+                        <p>2016.10-2017.7<br>西安夯拓软件科技有限公司 H5开发</p>
+                    </li>
+                </ul>
+                <div class="thumb kort stack">
+					<img src="img/sdm01.jpg" width="200" height="200">
+					<img src="img/sdm02.jpg" width="200" height="200">
+					<img src="img/sdm03.jpg" width="200" height="200">
+					<img src="img/qd01.jpg" width="200" height="200">
+					<img src="img/qd02.jpg" width="200" height="200">
+					<img src="img/qd03.jpg" width="200" height="200">
+				</div>
+            </div>
+            <div class="right">
+                <h1>Experience</h1>
+                <p>至今<br>工作经历</p>
+            </div>
+		</div>
+		<div class="section" id="five">
+			<div class="left">
+                <ul class="big">
+                    <li>
+                        <a href="./saolei" target="_blank">
+                            <div class="img">
+                            	<img src="img/sl.jpg" alt="">
+                            </div>
+                            <p>神鹿商城(微信公众号)</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./newtanchishe" target="_blank">
+                            <div class="img">
+                            	<img src="img/1.jpg" alt="">
+                            </div>
+                            <p>野马经纪人(微信公众号)</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./yintai" target="_blank">
+                           <div class="img">
+                           		<img src="img/yt.jpg" alt="">
+                           </div>
+                            <p>邻缘(微信公众号)</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./canvas" target="_blank">
+                            <div class="img" style="margin-right: 120px;">
+                                <img src="img/clock.jpg" alt="">
+                            </div>
+                            <p>车e邦(微信公众号)</p>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="./keyGame" target="_blank">
+                            <div class="img">
+                            	<img src="img/keygame.jpg" alt="">
+                            </div>
+                            <p>打字游戏</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./qqMusic" target="_blank">
+                               <div class="img">
+                               		<img src="img/qqm.jpg" alt="">
+                               </div>
+                                <p>QQ音乐</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./cheese" target="_blank">
+                                <div class="img">
+                                	<img src="img/qi.jpg" alt="">
+                                </div>
+                                <p>五子棋</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./studentSys" target="_blank">
+                           <div class="img">
+                           		<img src="img/stu.jpg" alt="">
+                           </div>
+                            <p>TODO</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="thumb kort stack">
+					<img src="img/sl.jpg" width="200" height="200">
+					<img src="img/tcs.jpg" width="200" height="200">
+					<img src="img/tel.jpg" width="200" height="200">
+					<img src="img/clock.jpg" width="200" height="200">
+					<img src="img/keygame.jpg" width="200" height="200">
+					<img src="img/qqm.jpg" width="200" height="200">
+					<img src="img/qi.jpg" width="200" height="200">
+					<img src="img/todo.jpg" width="200" height="200">
+					<img src="img/htx.jpg" width="200" height="200">
+					<img src="img/wx.jpg" width="200" height="200">
+				</div>
+            </div>
+            <div class="right">
+                <h1>Works</h1>
+                <p>作品<br>展示领域</p>
+            </div>
+		</div>
+        <div class="section" id="five">
+            <div class="left">
+                <ul class="big">
+                    
+                        <li>
+                        <a href="./saolei" target="_blank">
+                            <div class="img">
+                                <img src="img/sl.jpg" alt="">
+                            </div>
+                            <p>游戏扫雷</p>
+                        </a>
+                        </li>
+                    
+                    
+                        <li>
+                        <a href="./newtanchishe" target="_blank">
+                            <div class="img">
+                                <img src="img/tcs.jpg" alt="">
+                            </div>
+                            <p>贪吃蛇</p>
+
+                    </a>
+                        </li>
+                    
+                        <li>
+                        <a href="./yintai" target="_blank">
+                           <div class="img">
+                                <img src="img/yt.jpg" alt="">
+                           </div>
+                            <p>银泰商城</p>
+                    </a>
+                        </li>
+                       <li>
+                    <a href="./canvas" target="_blank">
+                        <div class="img" style="margin-right: 120px;">
+                            <img src="img/clock.jpg" alt="">
+                        </div>
+                        <p>精美时钟</p>
+                    </a>
+                    </li> 
+                        <li>
+                    <a href="./keyGame" target="_blank">
+                            <div class="img">
+                                <img src="img/keygame.jpg" alt="">
+                            </div>
+                            <p>打字游戏</p>
+                    </a>
+                        </li>
+                        <li>
+                    <a href="./qqMusic" target="_blank">
+                           <div class="img">
+                                <img src="img/qqm.jpg" alt="">
+                           </div>
+                            <p>QQ音乐</p>
+                    </a>
+                        </li>
+                        <li>
+                    <a href="./cheese" target="_blank">
+                            <div class="img">
+                                <img src="img/qi.jpg" alt="">
+                            </div>
+                            <p>五子棋</p>
+                    </a>
+                        </li>
+                        <li>
+                    <a href="./studentSys" target="_blank">
+                           <div class="img">
+                                <img src="img/stu.jpg" alt="">
+                           </div>
+                            <p>TODO</p>
+                    </a>
+                        </li>
+                </ul>
+                <div class="thumb kort stack">
+                    <img src="img/sl.jpg" width="200" height="200">
+                    <img src="img/tcs.jpg" width="200" height="200">
+                    <img src="img/tel.jpg" width="200" height="200">
+                    <img src="img/clock.jpg" width="200" height="200">
+                    <img src="img/keygame.jpg" width="200" height="200">
+                    <img src="img/qqm.jpg" width="200" height="200">
+                    <img src="img/qi.jpg" width="200" height="200">
+                    <img src="img/todo.jpg" width="200" height="200">
+                    <img src="img/htx.jpg" width="200" height="200">
+                    <img src="img/wx.jpg" width="200" height="200">
+                </div>
+            </div>
+            <div class="right">
+                <h1>Works</h1>
+                <p>作品<br>展示领域</p>
+            </div>
+        </div>
+		<div class="section" id="four">
+			<div class="left">
+                <ul class="big">
+                    <li>
+                        <div class="img">
+                        	<img src="img/dh.jpg" alt="">
+                        </div>
+                        <p>Tel：<br>18334795463</p>
+                    </li>
+                    <li>
+                        <div class="img">
+                        	<img src="img/qq.png" alt="">
+                        </div>
+                        <p>QQ：<br>1353281097</p>
+                    </li>
+                    <li>
+                       <div class="img">
+                       	<img src="img/email.jpg" alt="">
+                       </div>
+                        <p>Email<br>1353281097@qq.com</p>
+                    </li>
+                </ul>
+                 <div class="thumb kort stack">
+					<img src="img/dh.jpg" width="200" height="200">
+					<img src="img/qq.png" width="200" height="200">
+					<img src="img/email.jpg" width="200" height="200">
+				</div>
+            </div>
+            <div class="right">
+                <h1>Contact</h1>
+                <p>联系<br>途径方式</p>
+            </div>
+            <div class="tongxun">
+            	现居地：<span>西安市</span>
+            </div>
+		</div>
+	</div>
+	<script src="js/swiper/swiper.jquery.js"></script>
+	<!-- <script src="js/swiper/swiper.jquery.min.js"></script> -->
+	<!-- <script src="js/jquery/jquery.min.js"></script> -->
+	<!-- <script src="js/jquery/jquery.fullPage.js"></script> -->
+	<!-- <script src="js/jquery/jquery.lunbo.js"></script> -->
+	<script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/fullPage.js/2.7.9/jquery.fullPage.js"></script>
+    <script src="js/jquery/jquery.js"></script>
+   <script type="text/javascript">
+        $(document).ready(function() {
+            /*
+                var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+                };
+            */
+                                
+            $().UItoTop({ easingType: 'easeOutQuart' });
+                                
+            });
+    </script>
+</body>
+</html>
